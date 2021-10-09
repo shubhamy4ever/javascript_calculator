@@ -10,7 +10,7 @@ for(item of buttons){
         
     if(buttonText=="X"){
         buttonText="*";
-        textValue+=buttonText;
+        textValue=buttonText;
         text[0].value+= textValue;
     }else if(buttonText=="C"){
         textValue="";
